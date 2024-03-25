@@ -1,0 +1,41 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.main_container .content_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.main_container .text-input {
+  padding: 15px;
+  margin: 7px 0;
+}
+.main_container .btn {
+  padding: 10px;
+  cursor: pointer;
+  background: rgba(128, 128, 128, 0.2901960784);
+  border: none;
+  border-radius: 5px;
+}
+.main_container .change {
+  color: rgba(0, 0, 255, 0.5215686275);
+  margin: 0;
+}
+.main_container .login_btn {
+  background: rgba(128, 128, 128, 0.3882352941);
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.main_container .main_wrapper {
+  width: 30%;
+}
+.main_container .bottom_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=register.css.map */

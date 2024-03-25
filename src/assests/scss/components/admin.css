@@ -1,0 +1,36 @@
+.panel_container {
+  display: flex;
+}
+.panel_container .admin_content {
+  flex: 9;
+  height: calc(100vh - 70px);
+}
+.panel_container .sidebar_conatiner {
+  flex: 2;
+  height: calc(100vh - 70px);
+  background: #151529;
+}
+.panel_container .sidebar_conatiner .sidebar_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background: transparent;
+}
+.panel_container .sidebar_conatiner .logoIcon {
+  width: 25%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.panel_container .sidebar_conatiner .logoIcon img {
+  width: 100%;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #151529 !important;
+}
+
+.css-sox5kk-MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}/*# sourceMappingURL=admin.css.map */
